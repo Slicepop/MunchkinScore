@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #9b0008,#e20a9a, #0e4bcf,#1901f0);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #fff;
+    background-attachment: fixed;
+    background-size:auto;
+    background-repeat: repeat-x;
+    z-index: 2;
+    
+
+}
+main{
+    display: grid;
+    grid-auto-flow: column;
+}
+.bonuses{
+    display:flex;
+    outline-style: solid;
+    outline-color: #ffffff81;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.level_gear{
+    padding-top: 4px;
+    margin-left: 10px;
+}
+.overallBonus{
+    font-size: 40px;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.player{
+    outline-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content;
+    display: flex;
+
+}
+.playerImg{
+    width: auto;
+    height: 150px;
+    background-color: #332f57;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.playerDescription{
+    
+}
